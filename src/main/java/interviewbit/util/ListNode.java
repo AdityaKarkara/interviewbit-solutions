@@ -1,5 +1,10 @@
 package interviewbit.util;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class ListNode<T> {
     public T val;
     public ListNode<T> next;
