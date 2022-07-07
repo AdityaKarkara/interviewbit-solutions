@@ -1,7 +1,6 @@
 package interviewbit;
 
 import interviewbit.util.TreeNode;
-
 import java.util.ArrayList;
 
 public class UniqueBinarySearchTrees {
