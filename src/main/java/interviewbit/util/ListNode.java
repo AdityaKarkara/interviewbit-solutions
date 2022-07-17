@@ -13,4 +13,9 @@ public class ListNode<T> {
         val = x;
         next = null;
     }
+
+    @Override
+    public String toString() {
+        return this.val.toString();
+    }
 }
