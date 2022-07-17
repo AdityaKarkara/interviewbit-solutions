@@ -2,7 +2,6 @@ package interviewbit;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class AddOneToNumber {
     public ArrayList<Integer> plusOne(ArrayList<Integer> A) {
