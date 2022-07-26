@@ -11,4 +11,15 @@ public class LinkedListUtils<T> {
         }
         return head;
     }
+
+    public void printList(ListNode<T> head) {
+        StringBuilder sb = new StringBuilder();
+        while (head.next != null) {
+            sb.append(head.val.toString());
+            sb.append(" -> ");
+            head = head.next;
+        }
+        sb.append(head.val);
+        System.out.println(sb);
+    }
 }
